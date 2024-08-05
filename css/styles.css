@@ -1,0 +1,317 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #fff; 
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    padding: 0.625rem; /* 10px to rem */
+}
+
+.nav-item img {
+    width: 2.125rem; /* 34px to rem */
+    margin-right: 0.625rem; /* 10px to rem */
+    margin-left: 2.1875rem; /* 35px to rem */
+}
+
+.nav-item h3 {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.nav-links {
+    margin-left: auto;
+    padding: 0.625rem; /* 10px to rem */
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #090909;
+    padding: 0 0.625rem; /* 10px to rem */
+    margin-right: 1.875rem; /* 30px to rem */
+}
+
+.post {
+    height: 30.5rem; /* 488px to rem */
+    background-image: url('../images/blog-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    position: relative; 
+}
+
+.post-items {
+    width: 70%;
+    color: white;
+    position: absolute;
+    bottom: 3.125rem; /* 50px to rem */
+    left: 3.125rem; /* 50px to rem */
+    padding: 1.25rem; /* 20px to rem */
+    text-shadow: 1px 0 1px black;
+}
+
+.post-items p {
+    line-height: 1.5; /* Use relative line height for better readability */
+}
+
+.date-hero {
+    text-transform: capitalize;
+    margin-bottom: 0.3125rem; /* 5px to rem */
+}
+
+.blog-title-hero {
+    font-size: 2.5rem; /* 40px to rem */
+    font-weight: 700;
+    line-height: 1.1; 
+    letter-spacing: -0.03em;
+    text-align: left;
+    margin: 0;
+}
+
+.row-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem; /* Convert gap from em to rem for consistency */
+    padding: 2.5rem 1.7rem; /* Convert padding from em to rem for consistency */
+}
+
+.blog-container {
+    background-color: #f3ecec;
+    border-radius: 1.25rem; /* 20px to rem */
+    padding: 1rem; /* Add padding to the blog container */
+    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1); /* 0 4px 6px to rem */
+}
+
+.row-1 img {
+    width: 100%;
+    border-radius: 0.5rem; /* 8px to rem */
+    margin-bottom: 0.625rem; /* 10px to rem */
+}
+
+.blog-title {
+    font-weight: 700;
+    font-size: 1.5rem; /* 24px to rem */
+    line-height: 1.1; /* Use relative line height */
+    margin: 0;
+}
+
+.blog-items {
+    padding: 0 1.25rem; /* Adjusted padding, 20px to rem */
+}
+
+.preview {
+    font-size: 1rem; /* 16px to rem */
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: left;
+    margin-top: 0.5rem; /* 8px to rem */
+}
+
+.blog-date {
+    margin-bottom: 0.625rem; /* 10px to rem */
+}
+
+/* -----------------Blog1-------------------------- */
+
+.blog1-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.blog1-image {
+    width: 90%;
+    border-radius: 0.25rem; /* 4px to rem */
+    padding-top: 1.875rem; /* 30px to rem */
+    height: 30.5rem; /* 488px to rem */
+}
+
+.post-details {
+    width: 78%;
+}
+
+.post-details h1 {
+    font-size: 2.25rem; /* 36px to rem */
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    text-align: left;
+    margin: 0;
+}
+
+.post-details p {
+    font-size: 1rem; /* 16px to rem */
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: left;
+}
+
+.post-end {
+    width: 78%;
+    margin-top: 1.875rem; /* 30px to rem */
+}
+
+.post-end h3 {
+    font-size: 1.5rem; /* 24px to rem */
+    font-weight: 600;
+    margin-bottom: 0.625rem; /* 10px to rem */
+}
+
+.post-end p {
+    font-size: 1rem; /* 16px to rem */
+    font-weight: 400;
+    line-height: 1.25;
+    margin-bottom: 1.25rem; /* 20px to rem */
+    text-align: left;
+}
+
+.blog1 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+#recent-post {
+    margin-bottom: 0;
+    margin-top: 1.25rem; /* 20px to rem */
+}
+
+footer {
+    height: 80px; /* Adjusted to 80px */
+    background-color: #202020;
+    color: #ECECEC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h4 {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 0.8125rem; /* 12.98px to rem */
+    letter-spacing: -0.03em;
+    margin-bottom: 0;
+}
+
+footer p {
+    font-size: 0.75rem; /* 12px to rem */
+    font-weight: 400;
+    line-height: 0.9375rem; /* 15px to rem */
+}
+
+/*---------------- Media Queries ------------------ */
+@media (max-width: 1024px) {
+    .row-1 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        padding: 1.5rem;
+    }
+
+    .blog-container {
+        max-width: 95%; 
+    }
+}
+
+@media (max-width: 768px) {
+    .row-1 {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links a {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .blog-container {
+        max-width: 100%;
+    }
+
+    .post-items {
+        width: 90%;
+        padding: 0.5rem;
+    }
+
+    .post-items h2 {
+        font-size: 1.5rem; /* 24px to rem */
+    }
+
+    .post-items p {
+        font-size: 0.9rem; /* 14px to rem */
+    }
+}
+
+@media (max-width: 414px) {
+    .nav-links a {
+        font-size: 0.80rem;
+    }
+
+    .nav-item img {
+        margin-left: 1rem;
+    }
+
+    .post {
+        height: 25rem;
+    }
+
+    .post-items {
+        width: 80%;
+        padding: 0;
+    }
+
+    .post-items h2 {
+        font-size: 1.75rem; /* 28px to rem */
+    }
+
+    .post-items p {
+        font-size: 0.85rem; /* 14px to rem */
+    }
+
+    .blog-container {
+        max-width: 100%;
+        padding: 0.5rem;
+    }
+
+    .blog-items h2 {
+        font-size: 1.2rem; /* 19px to rem */
+    }
+
+    .blog-items p {
+        font-size: 0.9rem; /* 14px to rem */
+    }
+
+    footer {
+        height: 60px;
+    }
+
+    footer h4 {
+        line-height: 1rem;
+    }
+
+    .blog1-image{
+        height: 80%;
+    }
+}
